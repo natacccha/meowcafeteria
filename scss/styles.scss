@@ -159,6 +159,9 @@ a {
     }
 }
 
+.bg-light{
+    background: none;
+}
 
 
 .estilosMenu {
@@ -167,6 +170,8 @@ a {
 
 
 }
+
+
 
 .logo {
     width: 293px;
@@ -323,8 +328,8 @@ select {
     align-content: space-evenly;
     gap: 10px;
     gap: 10px 20px;
-    row-gap: 10px;
-    column-gap: 20px;
+    row-gap: 23px;
+    column-gap: 89px;
     margin-left: 20px;
     margin-top: 20px;
 
@@ -376,8 +381,8 @@ select {
 
 .wrapperProductos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     justify-items: end;
     align-items: center;
