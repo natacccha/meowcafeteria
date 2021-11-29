@@ -31,6 +31,11 @@ $lila:#b3c8ea;
 
 /*Estilos Cross documentos HTML*/
 
+.background-footer{
+    background-color: $lila;
+    margin-top: 100px;
+}
+
 
 html {
     height: 100%;
@@ -165,7 +170,7 @@ a {
 
 
 .estilosMenu {
-    background-color: #eddcd9 !important;
+    background-color: #eddcd9;
     width: 100%;
 
 
@@ -320,6 +325,12 @@ select {
 
 }
 
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 29px;
+}
 
 
 #gatitos {

@@ -11,6 +11,10 @@
   text-align: center; }
 
 /*Estilos Cross documentos HTML*/
+.background-footer {
+  background-color: #b3c8ea;
+  margin-top: 100px; }
+
 html {
   height: 100%; }
 
@@ -102,7 +106,7 @@ a {
   background: none; }
 
 .estilosMenu {
-  background-color: #eddcd9 !important;
+  background-color: #eddcd9;
   width: 100%; }
 
 .logo {
@@ -187,6 +191,12 @@ select {
 /*Pagina de adopcion*/
 #gatitos tr td {
   font-family: 'Andada Pro', serif; }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29px; }
 
 #gatitos {
   display: flex;
