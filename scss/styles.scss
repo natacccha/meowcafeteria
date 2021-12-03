@@ -232,6 +232,8 @@ nav ul li:hover>ul {
 
 
 #menudelcafe {
+
+
     th {
         background-color: purple;
         color: white;
@@ -253,6 +255,12 @@ nav ul li:hover>ul {
     }
 }
 
+
+.table{
+
+    margin-bottom: 475px;
+
+}
 
 /*Estilos de Landing Principal*/
 
@@ -316,6 +324,9 @@ select {
     margin: 10px;
 }
 
+ .section__Form__Gracias{
+     margin-bottom: 250px;
+ }
 
 /*Pagina de adopcion*/
 
@@ -480,20 +491,6 @@ select {
 
 
 
-@media only screen and (max-width: 480px) {
-
-    .boton {
-        margin-bottom: 15px;
-        width: 80px;
-        padding: 16px 80px;
-        display: unset;
-
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-}
 
 
 
@@ -633,6 +630,48 @@ select {
             margin-right: 21px;
             padding: 12px;
         }
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .boton {
+        margin-bottom: 15px;
+        width: 80px;
+        padding: 16px 80px;
+        display: unset;
+
+    }
+
+    h1 {
+        font-size: 2em;
+
+    }
+
+    input{
+        width: 148px;
+    
+    }
+    
+    #checkbox{
+        margin: -68px;
+    }
+
+    #gatitos img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .wrapperProductos {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: space-around;
+        place-items: center;
+    
     }
 
 }
