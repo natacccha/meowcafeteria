@@ -153,6 +153,9 @@ nav ul li:hover > ul {
 .table {
   margin-bottom: 475px; }
 
+.gracias {
+  margin-bottom: 600px; }
+
 /*Estilos de Landing Principal*/
 #landingPrincipal {
   display: inline-block; }
